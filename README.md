@@ -80,22 +80,17 @@ lib/
 
 Pastikan Anda telah menginstal [Flutter SDK](https://flutter.dev/docs/get-started/install) pada perangkat Anda.
 
-### 1. Clone Repositori
-```bash
-git clone https://github.com/username/fastbites.git
-cd fastbites
-```
 
-### 2. Install Dependencies
+### 1. Install Dependencies
 ```bash
 flutter pub get
 ```
 
-### 3. Konfigurasi API (Opsional)
+### 2. Konfigurasi API
 Jika menggunakan MockAPI kustom Anda sendiri, sesuaikan `BASE_URL` pada file:
 `lib/services/api_service.dart` atau file konfigurasi terkait.
 
-### 4. Jalankan Aplikasi
+### 3. Jalankan Aplikasi
 Jalankan di emulator, perangkat fisik, atau web browser:
 ```bash
 # Di Chrome / Web
@@ -107,12 +102,12 @@ flutter run
 
 ---
 
-## 🧪 Akun Demo untuk Pengujian
+## 🧪 Akun Demo
 
 | Role | Email | Password | Akses Tujuan |
 | :--- | :--- | :--- | :--- |
 | **Admin** | `admin@gmail.com` | `admin123` | Dashboard Admin (`/home`) |
-| **User** | Buat via form register / MockAPI | (Sesuai register) | Halaman Pelanggan (`/user_main`) |
+| **User** | user@gmail.com | user123 | Halaman Pelanggan (`/user_main`) |
 
 ---
 
@@ -125,6 +120,6 @@ flutter run
 
 ---
 
-Dikembangkan oleh **Kelompok 3** untuk pengembangan aplikasi mobile berbasis Flutter.
+Dikembangkan oleh **Kelompok 3** untuk mata kuliah mobile programming berbasis Flutter.
 
 ---
