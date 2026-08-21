@@ -1,8 +1,5 @@
 # 🍔 FastBites - Mobile Food Ordering App
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/username/fastbites/main/assets/images/logo.png" alt="FastBites Logo" width="120" onerror="this.style.display='none'"/>
-</p>
 
 <p align="center">
   <b>Aplikasi Pemesanan Makanan Mobile Berbasis Flutter & Dart</b><br>
